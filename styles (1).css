@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #00695c;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+}
+
+#hero {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#productos {
+    background-color: #333;
+    text-align: center;
+}
+
+#informacion {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#contacto {
+    background-color: #333;
+    text-align: center;
+}
+
+#orden {
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#excel {
+    background-color: #333; /* Cambia el color según tu preferencia */
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #00695c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: translateY(-5px);
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
